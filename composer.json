@@ -1,0 +1,27 @@
+{
+    "name": "serokuz/reforma-gkh-api",
+    "description": "reforma gkh soap api",
+    "type": "library",
+    "version": "1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serokuz22",
+            "email": "massivbarn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Serokuz\\ReformaGkhApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Serokuz\\ReformaGkhApi\\ReformaGkhApiServiceProvider"
+            ]
+        }
+    }
+}
