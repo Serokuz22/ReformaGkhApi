@@ -1,7 +1,8 @@
 {
     "name": "serokuz/reforma-gkh-api",
-    "description": "reforma gkh soap api",
+    "description": "reforma-gkh.ru api",
     "type": "library",
+    "keywords": ["laravel", "reformagkh", "soap"],
     "version": "1.0.1",
     "license": "MIT",
     "authors": [
@@ -11,7 +12,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "Serokuz\\ReformaGkhApi\\": "src/"
