@@ -6,7 +6,9 @@ Api Laravel для взаимодействия с https://www.reformagkh.ru/api
 composer require serokuz/reforma-gkh-api
 
 Публикуем config/reforma-gkh.php
-php artisan vendor:publish --provider "Serokuz\ReformaGkhApi\ReformaGkhApiServiceProvider"
+```
+php artisan vendor:publish --provider "Serokuz\ReformaGkhApi\ReformaGkhApiServiceProvider" --tag="config"
+```
 
 Необходимо указать login password с портала.
 
